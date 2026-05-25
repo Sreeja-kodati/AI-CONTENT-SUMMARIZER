@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from utils.ssl_fix import configure_ssl
 
 configure_ssl()
+
 from utils.api_config import (
     DEPRECATED_MODELS,
     get_client_config,
@@ -25,6 +26,7 @@ from utils.helpers import get_word_count, get_reading_time, safe_filename
 load_dotenv()
 
 APP_VERSION = "2.1.0"
+
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_ENV = os.getenv("PINECONE_ENV")
 PINECONE_INDEX = os.getenv("PINECONE_INDEX", "summary-index")
