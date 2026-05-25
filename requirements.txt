@@ -1,0 +1,19 @@
+streamlit
+openai
+truststore
+certifi
+httpx
+# Optional: install `pinecone` for vector search (app works without it)
+# pinecone
+sentence-transformers
+python-dotenv
+PyPDF2
+python-docx
+newspaper3k
+lxml_html_clean
+requests
+beautifulsoup4
+textblob
+numpy
+pandas
+tiktoken
